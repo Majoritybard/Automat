@@ -5,7 +5,7 @@ public class Parser {
     private boolean fehler;
     private List<Token> Tokenliste;
     public Parser(List pTokenliste){
-        pTokenliste=this.Tokenliste;
+        this.Tokenliste=pTokenliste;
         
     }
     public Token nextToken(){
